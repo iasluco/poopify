@@ -1,0 +1,10 @@
+{
+  "name": "Poopify",
+  "short_name": "Poopify",
+  "description": "Шуточный трекер для друзей",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff9e9",
+  "theme_color": "#f5c84c",
+  "icons": []
+}
