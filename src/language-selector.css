@@ -1,0 +1,6 @@
+/* Скопируй этот блок в конец своего src/style.css */
+.language-switch{display:flex;align-items:center;gap:4px;padding:4px;background:#fff0bd;border:1px solid #ead9a8;border-radius:999px;flex-shrink:0}
+.language-switch button{border:0;background:transparent;color:#684b2d;font:800 12px Nunito,sans-serif;padding:8px 10px;border-radius:999px;cursor:pointer;min-width:38px;transition:background .2s,transform .2s}
+.language-switch button:hover{transform:translateY(-1px)}
+.language-switch button.active{background:#f7ca4c;color:#49301e;box-shadow:0 2px 6px #49301e18}
+@media(max-width:760px){.topbar{flex-wrap:wrap;gap:10px}.language-switch{order:2;margin-left:auto}.room-pill{order:3}.cloud-status{order:4}.brand{flex:1}.language-switch button{padding:7px 9px}}
